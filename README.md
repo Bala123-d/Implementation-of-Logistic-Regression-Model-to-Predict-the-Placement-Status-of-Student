@@ -92,12 +92,6 @@ placement_prob = model.predict_proba(new_student_scaled)
 print(f"\nPredicted Placement Status: {'Placed' if placement_pred[0]==1 else 'Not Placed'}")
 print(f"Probability of Placement: {placement_prob[0][1]:.2f}")
 ```
-```
-/*
-Developed by: D.BALA SUBRAMANYAM
-RegisterNumber: 212224040062
-*/
-```
 
 ## Output:
 <img width="1486" height="409" alt="Screenshot 2026-05-22 160326" src="https://github.com/user-attachments/assets/dadc7f83-c43e-4b83-8ec9-f0b6aeb588dc" />
